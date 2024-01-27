@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import './Nav.css';
+import "./Nav.css";
 import logo from "../../assets/images/footer_logo2.png";
 
 const Nav = () => {
@@ -16,19 +16,19 @@ const Nav = () => {
     };
 
     // Attach event listener for scroll events
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when the component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <nav className={`navbar ${isNavbarVisible ? 'visible' : 'hidden'}`}>
-        <div className="logo-container">
-            <img src={logo} alt="Logo" className="logo" />
-        </div>
+    <nav className={`navbar ${isNavbarVisible ? "visible" : "hidden"}`}>
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
+      </div>
       <ul>
         <li>Gen AI</li>
         <li>Clients</li>
