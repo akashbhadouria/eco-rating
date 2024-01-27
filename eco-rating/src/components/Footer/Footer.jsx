@@ -25,6 +25,7 @@ const Footer = () => {
                         <p>Clients</p>
                         <p>Method</p>
                         <p>About Us</p>
+                        <button className="contact-us">CONTACT US</button>
                     </div>
             </div>
             <div className="column">
@@ -42,10 +43,10 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='testContainer4'>
+                    {/* <div className='testContainer4'>
                         <p>© 2035 by Vista.io Powered and</p>
                         <p>secured by Wix</p>
-                    </div>
+                    </div> */}
             </div>
         </footer>
     )

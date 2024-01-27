@@ -1,15 +1,11 @@
 import './App.css'
-import Cover from './components/Cover/cover'
-import Footer from './components/Footer/Footer'
-import Nav from './components/Nav/Nav'
+import HomePage from './pages/home-page'
 
 function App() {
 
   return (
     <>
-      <Nav/>
-      <Cover/>
-      <Footer/>
+      <HomePage/>
     </>
   )
 }

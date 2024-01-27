@@ -39,7 +39,7 @@ const Nav = () => {
             <li>About Us</li>
           </ul>
 
-          <button className="contact-us">Contact us</button>
+          <button className="contact-us">CONTACT US</button>
         </div>
       </nav>
     </>
