@@ -1,12 +1,14 @@
 .navbar {
-  position: fixed;
-  top: 0;
+  box-sizing: border-box;
+  position: sticky;
   left: 0;
   width: 100%;
+  background-color: white;
   color: #000000;
-  transition: transform 0.3s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   z-index: 1000;
   display: flex;
+  height: max-content;
   align-items: center;
   justify-content: space-between;
   transition: transform 0.3s ease-in-out;
@@ -22,12 +24,11 @@
 
 ul {
   list-style: none;
-  width: 30%;
+  width: max-content;
   padding: 8px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-right: 15px;
 }
 
 li {
@@ -54,7 +55,35 @@ ul > li:hover {
 }
 
 .logo {
-  width: 200px; /* Adjust the width of the logo */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 20px; /* Adjust spacing between logo and menu items */
+  width: 200px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.contact-us {
+  display: inline-block;
+  right: 2rem;
+  background-color: darkgreen;
+  color: white;
+  margin: 0;
+  font-weight: lighter;
+  padding: 10px 30px;
+  max-width: fit-content;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+.contact-us:hover {
+  background-color: white;
+  color: darkgreen;
+}
+
+.li-wrapper {
+  max-width: max-content;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
 }
