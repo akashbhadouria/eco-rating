@@ -106,7 +106,7 @@ body {
 .contact-us {
   display: inline-block;
   right: 2rem;
-  background-color: #2e472a;
+  background-color: #045233;
   color: white;
   margin: 0;
   font-weight: lighter;
@@ -120,6 +120,6 @@ body {
   border: none;
 }
 .contact-us:hover {
-  background-color: #2e472a;
+  background-color: #045233;
   color: white;
 }

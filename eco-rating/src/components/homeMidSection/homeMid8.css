@@ -1,0 +1,54 @@
+/* homeMid8.css */
+
+.icon-bar8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+  
+  .firstPart {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    text-align: right;
+    height: 445px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .firstPart h1{
+    padding-right: 40px;
+  }
+  
+  .secondPart {
+    width: 50%;
+  }
+  
+  .fullWidthImage {
+    width: 100%;
+    height: 445px auto;
+  }
+  
+  .getRated {
+    margin-right: 40px;
+    display: inline-block;
+    right: 2rem;
+    background-color: white;
+    color: green;
+    /* margin: 0; */
+    font-weight: lighter;
+    padding: 18px 40px;
+    max-width: fit-content;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+  }
+
+  .getRated:hover {
+    background-color: #045233;
+    color: white;
+  }

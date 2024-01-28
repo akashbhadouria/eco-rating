@@ -19,14 +19,14 @@ const HomeMid5 = () => {
                 </div>
             </div>
             <div className='colMid5'>
-                <div className='img2Mid5'>
+                <div className='img1Mid5'>
                     <img src={Image2} alt="brush Image" className="susImg2"/>
                     <h1>Global Debut of EcoRatings Set to Take Center Stage at COP 28</h1>
                     <h3>The CSR Universe</h3>
                 </div>
             </div>
             <div className='colMid5'>
-                <div className='img3Mid5'>
+                <div className='img1Mid5'>
                     <img src={Image3} alt="brush Image" className="susImg3"/>
                     <h1>Global Debut of EcoRatings Set to Take Center Stage at COP 28</h1>
                     <h3>The Financial Express</h3>

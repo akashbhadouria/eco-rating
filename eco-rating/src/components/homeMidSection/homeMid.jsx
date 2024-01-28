@@ -5,6 +5,7 @@ import HomeMid4 from "./homeMid4";
 import HomeMid5 from "./homeMid5";
 import HomeMid6 from "./homeMid6";
 import HomeMid7 from "./homeMid7";
+import HomeMid8 from "./homeMid8";
 
 const HomeMid = () => {
     return <>
@@ -15,6 +16,7 @@ const HomeMid = () => {
         <HomeMid5/>
         <HomeMid6/>
         <HomeMid7/>
+        <HomeMid8/>
     </>
 }
 
