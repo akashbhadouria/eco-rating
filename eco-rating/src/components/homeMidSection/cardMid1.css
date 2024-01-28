@@ -1,0 +1,59 @@
+.box {
+    width: 368px; /* Set your desired width */
+    height: auto; /* Set your desired height */
+    background-color: white; /* Set your desired background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Set your desired shadow properties */
+    margin: 0px; /* Set your desired margin */
+    padding: 0px; /* Set your desired padding */
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.box p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardText1{
+    margin-bottom: 10px;
+}
+
+.cardText2{
+    margin-bottom: 15px;
+}
+
+.cardText3{
+    margin-bottom: 25px;
+}
+
+.imgContainer{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.collab-image{
+    height: 97px;
+    width: 97px;
+}
+
+.ratingImageContainer{
+    height: 55px;
+    width: 345px;
+}
+
+.rating-image{
+    width: 100%;
+}
+
+.customerImageContainer{
+    margin-bottom: 11px;
+}
+
+.customer-image{
+    height: 97px;
+    width: 97px;
+}

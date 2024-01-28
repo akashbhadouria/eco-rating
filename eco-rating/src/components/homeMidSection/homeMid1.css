@@ -1,0 +1,58 @@
+/* HomeMid1.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    height: 700px;
+  }
+  
+  .textContainer {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .textContainer h1 {
+    color: black;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-top: 2%;
+  }
+  
+  .imgeContainer {
+    position: relative;
+    display: flex; /* Use flexbox to align items */
+  }
+  
+  .amzBox {
+    background-color: #6f837b;
+    height: 360px;
+    width: 640px;
+    z-index: 0; /* Ensure 'amzBox' is behind 'overlay-image' */
+    margin-top: 7.5%;
+    margin-left: 12%;;
+  }
+
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    height: 365px;
+    z-index: 1;
+    margin-left: 13.5%;
+    /* margin-top: -1.8%; */
+    margin-top: 5.5%;
+  }
+  
+  .cardMid1Container {
+    margin-left: auto; /* Align on the right side */
+    margin-top: -450px;; 
+    z-index: 2; /* Ensure 'CardMid1' is above 'overlay-image' */
+    margin-left: 850px;
+  }
+  

@@ -1,0 +1,123 @@
+.icon-bar5 {
+    /* border-top: 2px solid black; */
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    background-color: #ebebeb;
+    /* padding-left: 50px; */
+    padding-right: 50px;
+  }
+
+.icon-container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.colMid5{
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    background-color: white;
+    height: 350px;
+    width: 200px;
+    margin-left: 65px;
+    border: 1px solid black;
+}
+
+/* .icon-container5 h1{
+    font-size: 60px;
+    margin: 20px 0px 20px 0px;
+} */
+
+/* homeMid5.css */
+
+.centered-text {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+
+.img3Mid5{
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+.susImg1{
+    padding: 0px;
+    margin: 20px 0px 0px 100px;
+    height: 100px;
+    width: 150px;
+}
+
+.susImg2{
+    padding: 0px;
+    margin: 20px 55px;
+    height: 80px;
+    width: 160px;
+}
+
+.susImg3{
+    padding: 0px;
+    margin: 20px;
+    height: 50px;
+    width: 220px;
+}
+
+.img1Mid5 h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    white-space: normal;
+    margin: 40px 10px 0px 20px;
+    text-decoration: underline;
+}
+
+.img1Mid5 h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    white-space: normal;
+    margin: 20px 10px 0px 20px;
+}
+
+.img2Mid5 h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    white-space: normal;
+    margin: 40px 10px 0px 20px;
+    text-decoration: underline;
+}
+
+.img2Mid5 h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    white-space: normal;
+    margin: 20px 10px 0px 20px;
+}
+
+.img3Mid5 h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    white-space: normal;
+    margin: 60px 10px 0px 20px;
+    text-decoration: underline;
+    width: 350px;
+}
+
+.img3Mid5 h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    white-space: normal;
+    margin: 20px 10px 0px 20px;
+    width:150px;
+}
