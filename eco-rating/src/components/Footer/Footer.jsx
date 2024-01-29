@@ -43,10 +43,6 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    {/* <div className='testContainer4'>
-                        <p>© 2035 by Vista.io Powered and</p>
-                        <p>secured by Wix</p>
-                    </div> */}
             </div>
         </footer>
     )

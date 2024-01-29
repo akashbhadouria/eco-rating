@@ -1,6 +1,3 @@
-// HomeMid8.jsx
-
-import React from "react";
 import "./homeMid8.css";
 import WorldImg from "../../assets/images/world.webp";
 

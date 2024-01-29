@@ -1,4 +1,3 @@
-import React from 'react';
 import './homeMid5.css';
 import Image1 from "../../assets/images/sus1.webp";
 import Image2 from "../../assets/images/sus2.webp";

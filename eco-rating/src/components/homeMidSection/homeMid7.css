@@ -1,30 +1,26 @@
-/* Add your styles to a CSS file, for example, iconBar.css */
-
 .icon-bar {
-    /* border-top: 2px solid black; */
-    border-bottom: 2px solid black;
-    padding: 10px 0;
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  
-  .icon-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0px 30px 0px;
-  }
-  
-.iconMid511{
-    width: 70px; /* Set your desired width */
-    height: 120px; /* Set your desired height */
-    margin-right: 10px; 
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-  .iconMid51 {
-    width: 140px; /* Set your desired width */
-    height: 120px; /* Set your desired height */
-    margin-right: 10px; /* Adjust spacing between icons */
-  }
-  
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 30px 0px;
+}
+
+.iconMid511 {
+  width: 70px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.iconMid51 {
+  width: 140px;
+  height: 120px;
+  margin-right: 10px;
+}
